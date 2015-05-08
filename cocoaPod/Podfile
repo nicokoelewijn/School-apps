@@ -1,0 +1,4 @@
+platform :iOS, ‘8.0’
+se_frameworks!
+
+pod’Alamofire’,’~>1.2’
