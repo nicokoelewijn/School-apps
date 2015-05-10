@@ -7,44 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54ADA3531AFB9AC600CA6D05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ADA3521AFB9AC600CA6D05 /* AppDelegate.swift */; };
-		54ADA3551AFB9AC600CA6D05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ADA3541AFB9AC600CA6D05 /* ViewController.swift */; };
-		54ADA3571AFB9AC600CA6D05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54ADA3561AFB9AC600CA6D05 /* Images.xcassets */; };
-		54ADA35A1AFB9AC600CA6D05 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54ADA3581AFB9AC600CA6D05 /* LaunchScreen.xib */; };
-		54ADA3661AFB9AC600CA6D05 /* SharingIsCaringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ADA3651AFB9AC600CA6D05 /* SharingIsCaringTests.swift */; };
+		8609EB561AFA064C009F9576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8609EB551AFA064C009F9576 /* AppDelegate.swift */; };
+		8609EB581AFA064C009F9576 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8609EB571AFA064C009F9576 /* Images.xcassets */; };
+		8609EB5B1AFA064C009F9576 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8609EB591AFA064C009F9576 /* LaunchScreen.xib */; };
+		8609EB671AFA064C009F9576 /* SharingIsCaringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8609EB661AFA064C009F9576 /* SharingIsCaringTests.swift */; };
+		8609EB711AFA065E009F9576 /* SharingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8609EB701AFA065E009F9576 /* SharingViewController.swift */; };
+		8609EB731AFA06B2009F9576 /* SharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8609EB721AFA06B2009F9576 /* SharingView.swift */; };
+		8609EB751AFA091C009F9576 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8609EB741AFA091C009F9576 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		54ADA3601AFB9AC600CA6D05 /* PBXContainerItemProxy */ = {
+		8609EB611AFA064C009F9576 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 54ADA3451AFB9AC600CA6D05 /* Project object */;
+			containerPortal = 8609EB481AFA064C009F9576 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 54ADA34C1AFB9AC600CA6D05;
+			remoteGlobalIDString = 8609EB4F1AFA064C009F9576;
 			remoteInfo = SharingIsCaring;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		54ADA34D1AFB9AC600CA6D05 /* SharingIsCaring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharingIsCaring.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		54ADA3511AFB9AC600CA6D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54ADA3521AFB9AC600CA6D05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54ADA3541AFB9AC600CA6D05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		54ADA3561AFB9AC600CA6D05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		54ADA3591AFB9AC600CA6D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		54ADA35F1AFB9AC600CA6D05 /* SharingIsCaringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharingIsCaringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		54ADA3641AFB9AC600CA6D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54ADA3651AFB9AC600CA6D05 /* SharingIsCaringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingIsCaringTests.swift; sourceTree = "<group>"; };
+		8609EB501AFA064C009F9576 /* SharingIsCaring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharingIsCaring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8609EB541AFA064C009F9576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8609EB551AFA064C009F9576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8609EB571AFA064C009F9576 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8609EB5A1AFA064C009F9576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8609EB601AFA064C009F9576 /* SharingIsCaringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharingIsCaringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8609EB651AFA064C009F9576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8609EB661AFA064C009F9576 /* SharingIsCaringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingIsCaringTests.swift; sourceTree = "<group>"; };
+		8609EB701AFA065E009F9576 /* SharingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharingViewController.swift; sourceTree = "<group>"; };
+		8609EB721AFA06B2009F9576 /* SharingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharingView.swift; sourceTree = "<group>"; };
+		8609EB741AFA091C009F9576 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		54ADA34A1AFB9AC600CA6D05 /* Frameworks */ = {
+		8609EB4D1AFA064C009F9576 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8609EB751AFA091C009F9576 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54ADA35C1AFB9AC600CA6D05 /* Frameworks */ = {
+		8609EB5D1AFA064C009F9576 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -54,57 +59,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54ADA3441AFB9AC600CA6D05 = {
+		8609EB471AFA064C009F9576 = {
 			isa = PBXGroup;
 			children = (
-				54ADA34F1AFB9AC600CA6D05 /* SharingIsCaring */,
-				54ADA3621AFB9AC600CA6D05 /* SharingIsCaringTests */,
-				54ADA34E1AFB9AC600CA6D05 /* Products */,
+				8609EB741AFA091C009F9576 /* Social.framework */,
+				8609EB521AFA064C009F9576 /* SharingIsCaring */,
+				8609EB631AFA064C009F9576 /* SharingIsCaringTests */,
+				8609EB511AFA064C009F9576 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		54ADA34E1AFB9AC600CA6D05 /* Products */ = {
+		8609EB511AFA064C009F9576 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54ADA34D1AFB9AC600CA6D05 /* SharingIsCaring.app */,
-				54ADA35F1AFB9AC600CA6D05 /* SharingIsCaringTests.xctest */,
+				8609EB501AFA064C009F9576 /* SharingIsCaring.app */,
+				8609EB601AFA064C009F9576 /* SharingIsCaringTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54ADA34F1AFB9AC600CA6D05 /* SharingIsCaring */ = {
+		8609EB521AFA064C009F9576 /* SharingIsCaring */ = {
 			isa = PBXGroup;
 			children = (
-				54ADA3521AFB9AC600CA6D05 /* AppDelegate.swift */,
-				54ADA3541AFB9AC600CA6D05 /* ViewController.swift */,
-				54ADA3561AFB9AC600CA6D05 /* Images.xcassets */,
-				54ADA3581AFB9AC600CA6D05 /* LaunchScreen.xib */,
-				54ADA3501AFB9AC600CA6D05 /* Supporting Files */,
+				8609EB551AFA064C009F9576 /* AppDelegate.swift */,
+				8609EB701AFA065E009F9576 /* SharingViewController.swift */,
+				8609EB721AFA06B2009F9576 /* SharingView.swift */,
+				8609EB571AFA064C009F9576 /* Images.xcassets */,
+				8609EB591AFA064C009F9576 /* LaunchScreen.xib */,
+				8609EB531AFA064C009F9576 /* Supporting Files */,
 			);
 			path = SharingIsCaring;
 			sourceTree = "<group>";
 		};
-		54ADA3501AFB9AC600CA6D05 /* Supporting Files */ = {
+		8609EB531AFA064C009F9576 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				54ADA3511AFB9AC600CA6D05 /* Info.plist */,
+				8609EB541AFA064C009F9576 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		54ADA3621AFB9AC600CA6D05 /* SharingIsCaringTests */ = {
+		8609EB631AFA064C009F9576 /* SharingIsCaringTests */ = {
 			isa = PBXGroup;
 			children = (
-				54ADA3651AFB9AC600CA6D05 /* SharingIsCaringTests.swift */,
-				54ADA3631AFB9AC600CA6D05 /* Supporting Files */,
+				8609EB661AFA064C009F9576 /* SharingIsCaringTests.swift */,
+				8609EB641AFA064C009F9576 /* Supporting Files */,
 			);
 			path = SharingIsCaringTests;
 			sourceTree = "<group>";
 		};
-		54ADA3631AFB9AC600CA6D05 /* Supporting Files */ = {
+		8609EB641AFA064C009F9576 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				54ADA3641AFB9AC600CA6D05 /* Info.plist */,
+				8609EB651AFA064C009F9576 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -112,13 +119,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		54ADA34C1AFB9AC600CA6D05 /* SharingIsCaring */ = {
+		8609EB4F1AFA064C009F9576 /* SharingIsCaring */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54ADA3691AFB9AC600CA6D05 /* Build configuration list for PBXNativeTarget "SharingIsCaring" */;
+			buildConfigurationList = 8609EB6A1AFA064C009F9576 /* Build configuration list for PBXNativeTarget "SharingIsCaring" */;
 			buildPhases = (
-				54ADA3491AFB9AC600CA6D05 /* Sources */,
-				54ADA34A1AFB9AC600CA6D05 /* Frameworks */,
-				54ADA34B1AFB9AC600CA6D05 /* Resources */,
+				8609EB4C1AFA064C009F9576 /* Sources */,
+				8609EB4D1AFA064C009F9576 /* Frameworks */,
+				8609EB4E1AFA064C009F9576 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -126,46 +133,46 @@
 			);
 			name = SharingIsCaring;
 			productName = SharingIsCaring;
-			productReference = 54ADA34D1AFB9AC600CA6D05 /* SharingIsCaring.app */;
+			productReference = 8609EB501AFA064C009F9576 /* SharingIsCaring.app */;
 			productType = "com.apple.product-type.application";
 		};
-		54ADA35E1AFB9AC600CA6D05 /* SharingIsCaringTests */ = {
+		8609EB5F1AFA064C009F9576 /* SharingIsCaringTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54ADA36C1AFB9AC600CA6D05 /* Build configuration list for PBXNativeTarget "SharingIsCaringTests" */;
+			buildConfigurationList = 8609EB6D1AFA064C009F9576 /* Build configuration list for PBXNativeTarget "SharingIsCaringTests" */;
 			buildPhases = (
-				54ADA35B1AFB9AC600CA6D05 /* Sources */,
-				54ADA35C1AFB9AC600CA6D05 /* Frameworks */,
-				54ADA35D1AFB9AC600CA6D05 /* Resources */,
+				8609EB5C1AFA064C009F9576 /* Sources */,
+				8609EB5D1AFA064C009F9576 /* Frameworks */,
+				8609EB5E1AFA064C009F9576 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				54ADA3611AFB9AC600CA6D05 /* PBXTargetDependency */,
+				8609EB621AFA064C009F9576 /* PBXTargetDependency */,
 			);
 			name = SharingIsCaringTests;
 			productName = SharingIsCaringTests;
-			productReference = 54ADA35F1AFB9AC600CA6D05 /* SharingIsCaringTests.xctest */;
+			productReference = 8609EB601AFA064C009F9576 /* SharingIsCaringTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		54ADA3451AFB9AC600CA6D05 /* Project object */ = {
+		8609EB481AFA064C009F9576 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = "Nico Koelewijn";
+				ORGANIZATIONNAME = devine;
 				TargetAttributes = {
-					54ADA34C1AFB9AC600CA6D05 = {
+					8609EB4F1AFA064C009F9576 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
-					54ADA35E1AFB9AC600CA6D05 = {
+					8609EB5F1AFA064C009F9576 = {
 						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 54ADA34C1AFB9AC600CA6D05;
+						TestTargetID = 8609EB4F1AFA064C009F9576;
 					};
 				};
 			};
-			buildConfigurationList = 54ADA3481AFB9AC600CA6D05 /* Build configuration list for PBXProject "SharingIsCaring" */;
+			buildConfigurationList = 8609EB4B1AFA064C009F9576 /* Build configuration list for PBXProject "SharingIsCaring" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -173,28 +180,28 @@
 				en,
 				Base,
 			);
-			mainGroup = 54ADA3441AFB9AC600CA6D05;
-			productRefGroup = 54ADA34E1AFB9AC600CA6D05 /* Products */;
+			mainGroup = 8609EB471AFA064C009F9576;
+			productRefGroup = 8609EB511AFA064C009F9576 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54ADA34C1AFB9AC600CA6D05 /* SharingIsCaring */,
-				54ADA35E1AFB9AC600CA6D05 /* SharingIsCaringTests */,
+				8609EB4F1AFA064C009F9576 /* SharingIsCaring */,
+				8609EB5F1AFA064C009F9576 /* SharingIsCaringTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54ADA34B1AFB9AC600CA6D05 /* Resources */ = {
+		8609EB4E1AFA064C009F9576 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54ADA35A1AFB9AC600CA6D05 /* LaunchScreen.xib in Resources */,
-				54ADA3571AFB9AC600CA6D05 /* Images.xcassets in Resources */,
+				8609EB5B1AFA064C009F9576 /* LaunchScreen.xib in Resources */,
+				8609EB581AFA064C009F9576 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54ADA35D1AFB9AC600CA6D05 /* Resources */ = {
+		8609EB5E1AFA064C009F9576 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,38 +211,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		54ADA3491AFB9AC600CA6D05 /* Sources */ = {
+		8609EB4C1AFA064C009F9576 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54ADA3551AFB9AC600CA6D05 /* ViewController.swift in Sources */,
-				54ADA3531AFB9AC600CA6D05 /* AppDelegate.swift in Sources */,
+				8609EB731AFA06B2009F9576 /* SharingView.swift in Sources */,
+				8609EB561AFA064C009F9576 /* AppDelegate.swift in Sources */,
+				8609EB711AFA065E009F9576 /* SharingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54ADA35B1AFB9AC600CA6D05 /* Sources */ = {
+		8609EB5C1AFA064C009F9576 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54ADA3661AFB9AC600CA6D05 /* SharingIsCaringTests.swift in Sources */,
+				8609EB671AFA064C009F9576 /* SharingIsCaringTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		54ADA3611AFB9AC600CA6D05 /* PBXTargetDependency */ = {
+		8609EB621AFA064C009F9576 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 54ADA34C1AFB9AC600CA6D05 /* SharingIsCaring */;
-			targetProxy = 54ADA3601AFB9AC600CA6D05 /* PBXContainerItemProxy */;
+			target = 8609EB4F1AFA064C009F9576 /* SharingIsCaring */;
+			targetProxy = 8609EB611AFA064C009F9576 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		54ADA3581AFB9AC600CA6D05 /* LaunchScreen.xib */ = {
+		8609EB591AFA064C009F9576 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				54ADA3591AFB9AC600CA6D05 /* Base */,
+				8609EB5A1AFA064C009F9576 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -243,7 +251,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		54ADA3671AFB9AC600CA6D05 /* Debug */ = {
+		8609EB681AFA064C009F9576 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -287,7 +295,7 @@
 			};
 			name = Debug;
 		};
-		54ADA3681AFB9AC600CA6D05 /* Release */ = {
+		8609EB691AFA064C009F9576 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -324,7 +332,7 @@
 			};
 			name = Release;
 		};
-		54ADA36A1AFB9AC600CA6D05 /* Debug */ = {
+		8609EB6B1AFA064C009F9576 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -334,7 +342,7 @@
 			};
 			name = Debug;
 		};
-		54ADA36B1AFB9AC600CA6D05 /* Release */ = {
+		8609EB6C1AFA064C009F9576 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -344,7 +352,7 @@
 			};
 			name = Release;
 		};
-		54ADA36D1AFB9AC600CA6D05 /* Debug */ = {
+		8609EB6E1AFA064C009F9576 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -363,7 +371,7 @@
 			};
 			name = Debug;
 		};
-		54ADA36E1AFB9AC600CA6D05 /* Release */ = {
+		8609EB6F1AFA064C009F9576 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -381,32 +389,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54ADA3481AFB9AC600CA6D05 /* Build configuration list for PBXProject "SharingIsCaring" */ = {
+		8609EB4B1AFA064C009F9576 /* Build configuration list for PBXProject "SharingIsCaring" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54ADA3671AFB9AC600CA6D05 /* Debug */,
-				54ADA3681AFB9AC600CA6D05 /* Release */,
+				8609EB681AFA064C009F9576 /* Debug */,
+				8609EB691AFA064C009F9576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54ADA3691AFB9AC600CA6D05 /* Build configuration list for PBXNativeTarget "SharingIsCaring" */ = {
+		8609EB6A1AFA064C009F9576 /* Build configuration list for PBXNativeTarget "SharingIsCaring" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54ADA36A1AFB9AC600CA6D05 /* Debug */,
-				54ADA36B1AFB9AC600CA6D05 /* Release */,
+				8609EB6B1AFA064C009F9576 /* Debug */,
+				8609EB6C1AFA064C009F9576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		54ADA36C1AFB9AC600CA6D05 /* Build configuration list for PBXNativeTarget "SharingIsCaringTests" */ = {
+		8609EB6D1AFA064C009F9576 /* Build configuration list for PBXNativeTarget "SharingIsCaringTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54ADA36D1AFB9AC600CA6D05 /* Debug */,
-				54ADA36E1AFB9AC600CA6D05 /* Release */,
+				8609EB6E1AFA064C009F9576 /* Debug */,
+				8609EB6F1AFA064C009F9576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 54ADA3451AFB9AC600CA6D05 /* Project object */;
+	rootObject = 8609EB481AFA064C009F9576 /* Project object */;
 }

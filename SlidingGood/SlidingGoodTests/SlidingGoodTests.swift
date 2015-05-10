@@ -1,15 +1,15 @@
 //
-//  SharingIsCaringTests.swift
-//  SharingIsCaringTests
+//  SlidingGoodTests.swift
+//  SlidingGoodTests
 //
-//  Created by Frederik Jacques on 06/05/15.
-//  Copyright (c) 2015 devine. All rights reserved.
+//  Created by Nico Koelewijn on 25/02/15.
+//  Copyright (c) 2015 Donut Enterprise. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class SharingIsCaringTests: XCTestCase {
+class SlidingGoodTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

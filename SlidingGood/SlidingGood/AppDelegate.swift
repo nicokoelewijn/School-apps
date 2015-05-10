@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  SharingIsCaring
+//  SlidingGood
 //
-//  Created by Frederik Jacques on 06/05/15.
-//  Copyright (c) 2015 devine. All rights reserved.
+//  Created by Nico Koelewijn on 25/02/15.
+//  Copyright (c) 2015 Donut Enterprise. All rights reserved.
 //
 
 import UIKit
@@ -11,19 +11,18 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
-    var navVC:UINavigationController!
+    var window: UIWindow!
+
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        // Override point for customization after application launch.
         
-        let sharingVC = SharingViewController()
-        navVC = UINavigationController(rootViewController: sharingVC)
-        self.window?.rootViewController = navVC
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds )
+        self.window.backgroundColor = UIColor.redColor()
         
-        self.window!.backgroundColor = UIColor.whiteColor()
-        self.window!.makeKeyAndVisible()
+        self.window.makeKeyAndVisible()
+        
+        self.window.rootViewController = ViewController()
+        
         return true
     }
 

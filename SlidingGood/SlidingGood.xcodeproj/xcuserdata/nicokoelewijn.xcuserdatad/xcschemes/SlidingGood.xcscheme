@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "0610"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8609EB4F1AFA064C009F9576"
-               BuildableName = "SharingIsCaring.app"
-               BlueprintName = "SharingIsCaring"
-               ReferencedContainer = "container:SharingIsCaring.xcodeproj">
+               BlueprintIdentifier = "54D9EEB41A9D40EB00409210"
+               BuildableName = "SlidingGood.app"
+               BlueprintName = "SlidingGood"
+               ReferencedContainer = "container:SlidingGood.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8609EB5F1AFA064C009F9576"
-               BuildableName = "SharingIsCaringTests.xctest"
-               BlueprintName = "SharingIsCaringTests"
-               ReferencedContainer = "container:SharingIsCaring.xcodeproj">
+               BlueprintIdentifier = "54D9EEC61A9D40EC00409210"
+               BuildableName = "SlidingGoodTests.xctest"
+               BlueprintName = "SlidingGoodTests"
+               ReferencedContainer = "container:SlidingGood.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8609EB5F1AFA064C009F9576"
-               BuildableName = "SharingIsCaringTests.xctest"
-               BlueprintName = "SharingIsCaringTests"
-               ReferencedContainer = "container:SharingIsCaring.xcodeproj">
+               BlueprintIdentifier = "54D9EEC61A9D40EC00409210"
+               BuildableName = "SlidingGoodTests.xctest"
+               BlueprintName = "SlidingGoodTests"
+               ReferencedContainer = "container:SlidingGood.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8609EB4F1AFA064C009F9576"
-            BuildableName = "SharingIsCaring.app"
-            BlueprintName = "SharingIsCaring"
-            ReferencedContainer = "container:SharingIsCaring.xcodeproj">
+            BlueprintIdentifier = "54D9EEB41A9D40EB00409210"
+            BuildableName = "SlidingGood.app"
+            BlueprintName = "SlidingGood"
+            ReferencedContainer = "container:SlidingGood.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -72,14 +72,13 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8609EB4F1AFA064C009F9576"
-            BuildableName = "SharingIsCaring.app"
-            BlueprintName = "SharingIsCaring"
-            ReferencedContainer = "container:SharingIsCaring.xcodeproj">
+            BlueprintIdentifier = "54D9EEB41A9D40EB00409210"
+            BuildableName = "SlidingGood.app"
+            BlueprintName = "SlidingGood"
+            ReferencedContainer = "container:SlidingGood.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -91,14 +90,13 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8609EB4F1AFA064C009F9576"
-            BuildableName = "SharingIsCaring.app"
-            BlueprintName = "SharingIsCaring"
-            ReferencedContainer = "container:SharingIsCaring.xcodeproj">
+            BlueprintIdentifier = "54D9EEB41A9D40EB00409210"
+            BuildableName = "SlidingGood.app"
+            BlueprintName = "SlidingGood"
+            ReferencedContainer = "container:SlidingGood.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
