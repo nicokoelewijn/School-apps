@@ -14,7 +14,7 @@
 		<string>https://github.com/nicokoelewijn/School-apps.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>PToTheList_plist/PToTheList.xcodeproj</string>
+	<string>PToTheList_json/PToTheList.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>29022B23FE1EC04ACA13ECBF832E78C49E2CB8C8</key>
