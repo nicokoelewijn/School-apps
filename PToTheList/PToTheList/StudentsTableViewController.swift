@@ -30,9 +30,10 @@ class StudentsTableViewController: UITableViewController {
     func loadPlist(){
     
         println(NSBundle.mainBundle())
-        var path = NSBundle.mainBundle().URLForResource("students", withExtension: "plist")
-        let tmpArray = NSArray(contentsOfURL: path!)
-        self.studentsArray = StudentFactory.createFromArray(tmpArray!)
+        var path = NSBundle.mainBundle().URLForResource("students", withExtension: "json")
+        var jsonData = NSData(contentsOfURL: path!)
+        
+        self.studentsArray = StudentFactory.createFromJSONData(jsonData!)
         println(self.studentsArray)
     }
 

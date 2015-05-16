@@ -1,0 +1,176 @@
+[
+  {
+    "regular": true,
+    "dateOfBirth": "29-02-1988",
+    "photoFileName": "wannes-monchy@2x",
+    "name": "MrShizzle SpijkerMaNizzle"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "01-08-1995",
+    "photoFileName": "lars-van-poucke@2x",
+    "name": "Lars Van Poucke"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "15-01-1993",
+    "photoFileName": "freek-heyman@2x",
+    "name": "Freek Heyman"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "20-11-1989",
+    "photoFileName": "gerben-geeraerts@2x",
+    "name": "Gerben Geeraerts "
+  },
+  {
+    "regular": false,
+    "dateOfBirth": "08-01-1994",
+    "photoFileName": "cilia-vandenameele@2x",
+    "name": "Cilia Vandenameele"
+  },
+  {
+    "regular": false,
+    "dateOfBirth": "29-10-1995",
+    "photoFileName": "thibault-maekelbergh@2x",
+    "name": "Thibault Maekelbergh"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "09-07-1993",
+    "photoFileName": "benoit-schrijnemakers@2x",
+    "name": "Benoit Schrijnemakers"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "11-03-1993",
+    "photoFileName": "ellen-verleyen@2x",
+    "name": "Ellen Verleyen"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "14-08-1995",
+    "photoFileName": "joris-handstanger@2x",
+    "name": "Joris Handstanger"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "09-11-2001",
+    "photoFileName": "Emiel-van-pletsbrugge@2x",
+    "name": "Emiel Van Pletsbrugge"
+  },
+  {
+    "regular": false,
+    "dateOfBirth": "28-04-1993",
+    "photoFileName": "maxim-de-groote@2x",
+    "name": "Maxim De Groote"
+  },
+  {
+    "regular": false,
+    "dateOfBirth": "14-11-1991",
+    "photoFileName": "anthony-magnus@2x",
+    "name": "Anthony Magnus"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "09-06-1995",
+    "photoFileName": "toon-bertier@2x",
+    "name": "Toon Bertier"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "07-03-1995",
+    "photoFileName": "jonathan-de-weirt@2x",
+    "name": "Jonathan De Weirt"
+  },
+  {
+    "regular": false,
+    "dateOfBirth": "01-01-1345",
+    "photoFileName": "koning-albert@2x",
+    "name": "Koning Albert"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "31-03-1994",
+    "photoFileName": "dieter-cafmeyer@2x",
+    "name": "Dieter Cafmeyer"
+  },
+  {
+    "regular": false,
+    "dateOfBirth": "26-03-1994",
+    "photoFileName": "roger-debruyne@2x",
+    "name": "Roger Debruyne"
+  },
+  {
+    "regular": false,
+    "dateOfBirth": "03-04-1995",
+    "photoFileName": "morgane-tchekouteff",
+    "name": "Morgane Tchekouteff"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "03-03-1985",
+    "photoFileName": "gilles-platteeuw@2x",
+    "name": "Gilles Platteeuw"
+  },
+  {
+    "regular": false,
+    "dateOfBirth": "08-02-1993",
+    "photoFileName": "arne-deprez",
+    "name": "Arne Deprez"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "23-12-1995",
+    "photoFileName": "manon-kindt@2x",
+    "name": "Manon Kindt"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "26-11-1990",
+    "photoFileName": "nico-koelewijn@2x",
+    "name": "Nico Koelewijn"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "09-09-1993",
+    "photoFileName": "lisa-meersseman@2x",
+    "name": "Lisa Meersseman"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "15-12-1995",
+    "photoFileName": "kevin-rousseau@2x",
+    "name": "Kevin Rousseau"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "29-05-1995",
+    "photoFileName": "sander-bossuyt@2x",
+    "name": "Sander Bossuyt"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "24-03-1994",
+    "photoFileName": "delphine-claerhout@2x",
+    "name": "Delphine Claerhout"
+  },
+  {
+    "regular": false,
+    "dateOfBirth": "16-04-1995",
+    "photoFileName": "eline-lingier@2x",
+    "name": "Eline Lingier"
+  },
+  {
+    "regular": true,
+    "dateOfBirth": "26-10-1993",
+    "photoFileName": "eliot-colinet@2x",
+    "name": "Eliot Colinet"
+  },
+  {
+    "regular": false,
+    "dateOfBirth": "02-03-1993",
+    "photoFileName": "joon-van-thuyne@2x",
+    "name": "Joon Van Thuyne"
+  }
+]

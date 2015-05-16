@@ -15,6 +15,8 @@
 		5475206D1B00244E007B55FF /* students.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5475206C1B00244E007B55FF /* students.plist */; };
 		5475206F1B002898007B55FF /* StudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5475206E1B002898007B55FF /* StudentsTableViewController.swift */; };
 		54BD8B3D1B069AF40084304E /* StudentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BD8B3C1B069AF40084304E /* StudentFactory.swift */; };
+		54BD8B501B07B8070084304E /* students.json in Resources */ = {isa = PBXBuildFile; fileRef = 54BD8B4F1B07B8070084304E /* students.json */; };
+		54BD8B521B07C3D50084304E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BD8B511B07C3D50084304E /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		5475206C1B00244E007B55FF /* students.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = students.plist; sourceTree = "<group>"; };
 		5475206E1B002898007B55FF /* StudentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsTableViewController.swift; sourceTree = "<group>"; };
 		54BD8B3C1B069AF40084304E /* StudentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentFactory.swift; sourceTree = "<group>"; };
+		54BD8B4F1B07B8070084304E /* students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = students.json; sourceTree = "<group>"; };
+		54BD8B511B07C3D50084304E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				5475206C1B00244E007B55FF /* students.plist */,
+				54BD8B4F1B07B8070084304E /* students.json */,
 				5475204C1B002402007B55FF /* PToTheList */,
 				5475205F1B002403007B55FF /* PToTheListTests */,
 				5475204B1B002402007B55FF /* Products */,
@@ -86,6 +91,7 @@
 				54BD8B3C1B069AF40084304E /* StudentFactory.swift */,
 				5422F2341B00D59400A90DB3 /* StudentData.swift */,
 				5475204F1B002402007B55FF /* AppDelegate.swift */,
+				54BD8B511B07C3D50084304E /* SwiftyJSON.swift */,
 				547520531B002402007B55FF /* Images.xcassets */,
 				547520551B002402007B55FF /* LaunchScreen.xib */,
 				5475204D1B002402007B55FF /* Supporting Files */,
@@ -201,6 +207,7 @@
 				547520571B002402007B55FF /* LaunchScreen.xib in Resources */,
 				5475206D1B00244E007B55FF /* students.plist in Resources */,
 				547520541B002402007B55FF /* Images.xcassets in Resources */,
+				54BD8B501B07B8070084304E /* students.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +228,7 @@
 				547520501B002402007B55FF /* AppDelegate.swift in Sources */,
 				5475206F1B002898007B55FF /* StudentsTableViewController.swift in Sources */,
 				54BD8B3D1B069AF40084304E /* StudentFactory.swift in Sources */,
+				54BD8B521B07C3D50084304E /* SwiftyJSON.swift in Sources */,
 				5422F2351B00D59400A90DB3 /* StudentData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
