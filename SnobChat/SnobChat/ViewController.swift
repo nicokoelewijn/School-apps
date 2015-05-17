@@ -37,12 +37,13 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             imagepicker.delegate = self
             
             self.presentViewController(imagepicker, animated: true, completion: nil)
-            
+
         } else {
             println("camera niet beschikbaar")
             
         }
     }
+
     
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
 
@@ -51,8 +52,13 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         self.imageView.image = image
         
         picker.dismissViewControllerAnimated(true, completion: nil)
+        NSTimer.scheduledTimerWithTimeInterval(5, target: self, selector: "tickHandler", userInfo: nil, repeats: false)
     }
-
+    
+    func tickHandler(){
+        self.imageView.image = nil;
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
