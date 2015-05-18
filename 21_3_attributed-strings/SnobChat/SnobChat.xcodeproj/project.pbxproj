@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86153F8D1AAEDB350074DD8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86153F8C1AAEDB350074DD8F /* AppDelegate.swift */; };
+		86153F8F1AAEDB350074DD8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86153F8E1AAEDB350074DD8F /* ViewController.swift */; };
+		86153F911AAEDB350074DD8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86153F901AAEDB350074DD8F /* Images.xcassets */; };
+		86153F941AAEDB350074DD8F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86153F921AAEDB350074DD8F /* LaunchScreen.xib */; };
+		86153FA01AAEDB350074DD8F /* SnobChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86153F9F1AAEDB350074DD8F /* SnobChatTests.swift */; };
+		8617571A1AAEFB9B0047B5C0 /* Nilland-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 861757191AAEFB9B0047B5C0 /* Nilland-Black.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86153F9A1AAEDB350074DD8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86153F7F1AAEDB340074DD8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86153F861AAEDB340074DD8F;
+			remoteInfo = SnobChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86153F871AAEDB350074DD8F /* SnobChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnobChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86153F8B1AAEDB350074DD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86153F8C1AAEDB350074DD8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86153F8E1AAEDB350074DD8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86153F901AAEDB350074DD8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		86153F931AAEDB350074DD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		86153F991AAEDB350074DD8F /* SnobChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnobChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86153F9E1AAEDB350074DD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86153F9F1AAEDB350074DD8F /* SnobChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnobChatTests.swift; sourceTree = "<group>"; };
+		861757191AAEFB9B0047B5C0 /* Nilland-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nilland-Black.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86153F841AAEDB340074DD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86153F961AAEDB350074DD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86153F7E1AAEDB340074DD8F = {
+			isa = PBXGroup;
+			children = (
+				86153F891AAEDB350074DD8F /* SnobChat */,
+				86153F9C1AAEDB350074DD8F /* SnobChatTests */,
+				86153F881AAEDB350074DD8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86153F881AAEDB350074DD8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86153F871AAEDB350074DD8F /* SnobChat.app */,
+				86153F991AAEDB350074DD8F /* SnobChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86153F891AAEDB350074DD8F /* SnobChat */ = {
+			isa = PBXGroup;
+			children = (
+				86153F8C1AAEDB350074DD8F /* AppDelegate.swift */,
+				86153F8E1AAEDB350074DD8F /* ViewController.swift */,
+				86153F901AAEDB350074DD8F /* Images.xcassets */,
+				86153F921AAEDB350074DD8F /* LaunchScreen.xib */,
+				86153F8A1AAEDB350074DD8F /* Supporting Files */,
+			);
+			path = SnobChat;
+			sourceTree = "<group>";
+		};
+		86153F8A1AAEDB350074DD8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				861757191AAEFB9B0047B5C0 /* Nilland-Black.ttf */,
+				86153F8B1AAEDB350074DD8F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86153F9C1AAEDB350074DD8F /* SnobChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				86153F9F1AAEDB350074DD8F /* SnobChatTests.swift */,
+				86153F9D1AAEDB350074DD8F /* Supporting Files */,
+			);
+			path = SnobChatTests;
+			sourceTree = "<group>";
+		};
+		86153F9D1AAEDB350074DD8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86153F9E1AAEDB350074DD8F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86153F861AAEDB340074DD8F /* SnobChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86153FA31AAEDB350074DD8F /* Build configuration list for PBXNativeTarget "SnobChat" */;
+			buildPhases = (
+				86153F831AAEDB340074DD8F /* Sources */,
+				86153F841AAEDB340074DD8F /* Frameworks */,
+				86153F851AAEDB340074DD8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnobChat;
+			productName = SnobChat;
+			productReference = 86153F871AAEDB350074DD8F /* SnobChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86153F981AAEDB350074DD8F /* SnobChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86153FA61AAEDB350074DD8F /* Build configuration list for PBXNativeTarget "SnobChatTests" */;
+			buildPhases = (
+				86153F951AAEDB350074DD8F /* Sources */,
+				86153F961AAEDB350074DD8F /* Frameworks */,
+				86153F971AAEDB350074DD8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86153F9B1AAEDB350074DD8F /* PBXTargetDependency */,
+			);
+			name = SnobChatTests;
+			productName = SnobChatTests;
+			productReference = 86153F991AAEDB350074DD8F /* SnobChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86153F7F1AAEDB340074DD8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Frederik Jacques";
+				TargetAttributes = {
+					86153F861AAEDB340074DD8F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					86153F981AAEDB350074DD8F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 86153F861AAEDB340074DD8F;
+					};
+				};
+			};
+			buildConfigurationList = 86153F821AAEDB340074DD8F /* Build configuration list for PBXProject "SnobChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86153F7E1AAEDB340074DD8F;
+			productRefGroup = 86153F881AAEDB350074DD8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86153F861AAEDB340074DD8F /* SnobChat */,
+				86153F981AAEDB350074DD8F /* SnobChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86153F851AAEDB340074DD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8617571A1AAEFB9B0047B5C0 /* Nilland-Black.ttf in Resources */,
+				86153F941AAEDB350074DD8F /* LaunchScreen.xib in Resources */,
+				86153F911AAEDB350074DD8F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86153F971AAEDB350074DD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86153F831AAEDB340074DD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86153F8F1AAEDB350074DD8F /* ViewController.swift in Sources */,
+				86153F8D1AAEDB350074DD8F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86153F951AAEDB350074DD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86153FA01AAEDB350074DD8F /* SnobChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86153F9B1AAEDB350074DD8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86153F861AAEDB340074DD8F /* SnobChat */;
+			targetProxy = 86153F9A1AAEDB350074DD8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86153F921AAEDB350074DD8F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86153F931AAEDB350074DD8F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86153FA11AAEDB350074DD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86153FA21AAEDB350074DD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86153FA41AAEDB350074DD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnobChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86153FA51AAEDB350074DD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnobChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86153FA71AAEDB350074DD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnobChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnobChat.app/SnobChat";
+			};
+			name = Debug;
+		};
+		86153FA81AAEDB350074DD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnobChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnobChat.app/SnobChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86153F821AAEDB340074DD8F /* Build configuration list for PBXProject "SnobChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86153FA11AAEDB350074DD8F /* Debug */,
+				86153FA21AAEDB350074DD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86153FA31AAEDB350074DD8F /* Build configuration list for PBXNativeTarget "SnobChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86153FA41AAEDB350074DD8F /* Debug */,
+				86153FA51AAEDB350074DD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86153FA61AAEDB350074DD8F /* Build configuration list for PBXNativeTarget "SnobChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86153FA71AAEDB350074DD8F /* Debug */,
+				86153FA81AAEDB350074DD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86153F7F1AAEDB340074DD8F /* Project object */;
+}
