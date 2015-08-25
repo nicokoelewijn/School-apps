@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F768C1FD-913A-41B6-A89D-AB4EA77B4ED1</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>cocoaPod</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>29022B23FE1EC04ACA13ECBF832E78C49E2CB8C8</key>
 		<string>https://github.com/nicokoelewijn/School-apps.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>cocoaPod/cocoaPod.xcodeproj/project.xcworkspace</string>
+	<string>33_cocoaPod/cocoaPod.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>29022B23FE1EC04ACA13ECBF832E78C49E2CB8C8</key>

@@ -16,13 +16,13 @@
 		<string>https://github.com/Alamofire/Alamofire</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>AToThePI/AToThePI.xcodeproj</string>
+	<string>19_3_AToThePI/AToThePI.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>29022B23FE1EC04ACA13ECBF832E78C49E2CB8C8</key>
 		<string>../../..</string>
 		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
-		<string>../../..AToThePI/Alamofire</string>
+		<string>../../..19_3_AToThePI/Alamofire/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/nicokoelewijn/School-apps.git</string>
